@@ -72,6 +72,7 @@ function App() {
               <h4>Using If-else</h4>
               <li className="commonConditionalOperators">
                 {
+                  // eslint-disable-next-line no-template-curly-in-string
                   "if (Count >= 1) {document.title = ` Count ${Count}`} else {document.title = `Count`}"
                 }
               </li>

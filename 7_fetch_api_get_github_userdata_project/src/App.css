@@ -53,3 +53,16 @@ a {
   margin: 2px;
   font-weight: 500;
 }
+.Loading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.Loading h1 {
+  font-size: 10rem;
+  font-family: "Happy Monkey", cursive;
+  padding: 20px;
+}

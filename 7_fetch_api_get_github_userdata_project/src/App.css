@@ -1,38 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Chango&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chango&family=Happy+Monkey&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+  font-size: 2.8rem;
+  padding: 20px 30px;
+  font-family: "Chango", cursive;
+  color: blue;
+}
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  flex-direction: column;
+  font-family: "Happy Monkey", cursive;
+  height: 425px;
+  width: 300px;
+}
+p {
+  font-size: 22px;
+  margin: 0;
+  color: black;
+  font-weight: 500;
+}
+a {
+  margin: 5px;
+}
+.card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card-title {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin: 2px;
+  font-weight: 500;
 }

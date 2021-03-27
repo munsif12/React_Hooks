@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Chango&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chango&family=Happy+Monkey&display=swap");
+::placeholder {
+  color: blue;
+  letter-spacing: 2px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100vw;
+}
+.App {
+  box-shadow: 20px 20px 40px #d9d9d9, -20px -20px 40px #ffffff;
+  padding: 15px;
+  height: 50vh;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 20px;
+  border-radius: 50px;
+  background: #ffffff;
+  position: relative;
+}
+.title {
+  font-size: 1.3rem;
+  padding: 5px 10px;
+  /* font-family: "Happy Monkey", cursive; */
+  font-family: "Chango", cursive;
+  position: absolute;
+  top: -30%;
+  color: blue;
+  font-weight: 200;
+}
+.formWrapper {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+#input,
+#age {
+  height: 8vh;
+  width: 60%;
+  line-height: 2px;
+  padding: 5px;
+  border-radius: 15px;
+  border: 1px solid blue;
+  color: blue;
+  font-size: 20px;
+  padding: 0px 10px;
+  font-family: "Happy Monkey", cursive;
+  outline: none;
+}
+#button {
+  margin-top: 10px;
+  height: 5vh;
+  padding: 10px 22px;
+  width: 25%;
+  background: transparent;
+  color: blue;
+  border: 1px solid blue;
+  border-radius: 15px;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-family: "Happy Monkey", cursive;
+  cursor: pointer;
+  outline: none;
+}
+p {
+  bottom: -15%;
+  font-size: 30px;
+  position: absolute;
+  color: blue;
+  letter-spacing: 2px;
+  font-family: "Happy Monkey", cursive;
+}

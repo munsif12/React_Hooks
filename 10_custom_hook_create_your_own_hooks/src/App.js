@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <div className="App">
-        <p className="title">Custom Hook -> Check The Page Title</p>
+        <p className="title">Custom Hook {"->"} Check The Page Title</p>
         <div className="counterWrapper">
           <p className="count">{Count}</p>
           <button onClick={updateCount}>Click Me </button>

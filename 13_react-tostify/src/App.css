@@ -1,0 +1,58 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background: linear-gradient(rgba(255, 255, 255, 0.419), gray);
+}
+.buttons {
+  width: 90vw;
+}
+button {
+  height: 8vh;
+  min-width: 12vw;
+  margin: 20px;
+  outline: none;
+  color: white;
+  font-size: 22px;
+  border-radius: 12px;
+  /* flex: 1 1 100px; */
+}
+.info {
+  background: blue;
+  border: 1px solid blue;
+}
+.success {
+  background: green;
+  border: 1px solid green;
+}
+.danger {
+  background: red;
+  border: 1px solid red;
+}
+.default {
+  background: linear-gradient(210deg, rgb(204, 133, 133), rgb(109, 7, 135));
+  border: 1px solid white;
+}
+.Dark {
+  background: black;
+  border: 1px solid black;
+}
+.warning {
+  background: yellow;
+  border: 1px solid yellow;
+}
+.All {
+  background: linear-gradient(90deg, red, green, blue, black, yellow);
+  border: 1px solid yellow;
+}
+h1 {
+  position: absolute;
+  top: 10%;
+  font-size: 74px;
+  font-family: century gothic;
+  color: blue;
+}

@@ -1,6 +1,5 @@
 import React from "react";
 import { useLocation, useHistory } from "react-router-dom";
-
 function Home() {
   const location = useLocation();
   const history = useHistory();
